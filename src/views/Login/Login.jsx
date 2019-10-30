@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Layout, Input, Icon, Form, Button, Divider, message, notification } from 'antd'
 import { withRouter } from 'react-router-dom'
-// import axios from '../../api'
-// import { API } from '../../api/config'
 import '../../style/view-style/login.scss'
 
 class Login extends Component {
@@ -20,22 +18,6 @@ class Login extends Component {
         e.preventDefault()
         this.props.form.validateFields((err, values) => {
             if (!err) {
-                // let { username, password } = values
-                // axios
-                //     .post(`${API}/login`, { username, password })
-                //     .then(res => {
-                //         if (res.data.code === 0) {
-                //             localStorage.setItem('user', JSON.stringify(res.data.data.user))
-                //             localStorage.setItem('token', res.data.data.token)
-                //             this.props.history.push('/')
-                //             message.success('登录成功!')
-                //         } else {
-                //             // 这里处理一些错误信息
-                //         }
-                //     })
-                //     .catch(err => {})
-
-                // 这里可以做权限校验 模拟接口返回用户权限标识
                 switch (values.username) {
                     case 'admin':
                         values.auth = 0
