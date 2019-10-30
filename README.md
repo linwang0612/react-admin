@@ -1,25 +1,5 @@
 ## React 后台管理系统
 
-> [项目预览地址](https://ltadpoles.github.io/#/index)
-
-基于 `React` 生态系统搭建的后台管理系统模板
-
-此项目为闲暇时间所做，主要是为了熟悉 `React` 项目的开发流程，打造一个快速开发后台管理系统的模板
-
-既为模板，可能就添加了一些你觉得并不需要的东西，比如菜单栏收缩将判断值存储在 `Redux` 之中，其实完全可以采用组件传值的方式解决，并不需要引入 `Redux` 。添加这个东西只是为了方便项目的拓展、展示它的使用方式。当然，如果你不需要，完全可以很简单的移除它们
-
-由于每个管理项目可能会有不同的定制化需求，所以对于模板中的一些功能并没有做完善的封装，比如对 `axios` 的封装、前端路由权限的控制。当然，结构或者思路已经存在代码之中了,只需要添加具体的业务代码即可
-
-此项目会不断进行优化迭代，后期可能会增加 `react-hook` 版本
-
-如果觉得不错或者对你有些许的帮助，欢迎 `star`，或者你有更好的实现方式、有趣的 `idea`，也欢迎留言交流 
-
-如果你想了解项目更为详细的信息，推荐阅读以下文章
-
-- [如何打造 react 后台管理系统](https://github.com/ltadpoles/web-document/blob/master/React/%E5%BF%AB%E9%80%9F%E6%89%93%E9%80%A0react%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.md)
-
-以下为项目基本信息↓
-
 ### 技术栈
 
 `React@16.10.1 + React-Router@5.1.1 + Redux@4.0.4 + Antd@3.23.5 + Axios@0.19.0`
@@ -79,7 +59,7 @@
 ### 使用方法
 
 ```npm
-git clone https://github.com/ltadpoles/react-admin.git
+git clone https://github.com/linwang0612/react-admin
 
 cd react-admin
 
@@ -93,11 +73,3 @@ yarn start
 yarn build
 
 ```
-
-### 截图
-
-![image](https://raw.githubusercontent.com/ltadpoles/react-admin/master/src/assets/images/index.jpg)
-
-![image](https://raw.githubusercontent.com/ltadpoles/react-admin/master/src/assets/images/form.jpg)
-
-![image](https://raw.githubusercontent.com/ltadpoles/react-admin/master/src/assets/images/editor.jpg)
